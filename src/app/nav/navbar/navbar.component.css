@@ -1,0 +1,40 @@
+nav {
+  margin-bottom: 40px;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+nav::after {
+  position: absolute;
+  content: "";
+  width: 650px;
+  border: 2px solid #ccc5;
+  top: 50%;
+  bottom: 50%;
+  left: 202px;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navlist .lista {
+  display: flex;
+  background-color: #aaa3;
+  padding: 0 60px;
+  align-items: center;
+}
+
+.lista li {
+  list-style: none;
+  color: #ddd;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.lista li:first-child {
+  border-bottom: 3px solid #ddd;
+}
