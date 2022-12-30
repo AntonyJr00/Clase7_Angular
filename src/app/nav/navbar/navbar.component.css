@@ -17,6 +17,14 @@ nav {
   text-align: center;
   transition: all 0.5s;
 }
+
+.logo {
+  margin-left: 15px;
+}
+label {
+  margin-right: 15px;
+}
+
 .lista li {
   display: none;
   line-height: 30px;
@@ -91,7 +99,7 @@ nav {
     width: 0;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   nav::after {
     position: absolute;
     content: "";
@@ -99,7 +107,7 @@ nav {
     border: 1px solid #ccc5;
     top: 50%;
     bottom: 50%;
-    left: 5%;
+    left: 6%;
   }
 }
 label {
