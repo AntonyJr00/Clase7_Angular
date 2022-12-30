@@ -1,3 +1,38 @@
+<h1>✅ 🪐 Actividad Grupal - Sesion 07</h1>
+<h3>Integrantes</h3>
+<ul>
+<li>Dinely Pinco Reyes</li>
+<li>Antony Rodriguez Lucas</li>
+<li> Estrellita Peña Medina</li>
+</ul>
+
+<h3>Lenguajes utilizados:</h3>
+<ul>
+<li>Html</li>
+<li>Css</li>
+</ul>
+
+<h3>Framework:</h3>
+<ul>
+<li>Angular</li>
+</ul>
+
+<h3>Imágenes Previas:</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Myapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
