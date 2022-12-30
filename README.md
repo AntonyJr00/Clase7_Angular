@@ -19,9 +19,10 @@
 </ul>
 
 <h3>Imágenes Previas:</h3>
-![image](https://user-images.githubusercontent.com/116766305/210107337-3ab597eb-f358-4341-897a-22adaf4b5eee.png)
-![image](https://user-images.githubusercontent.com/116766305/210107368-278f12f0-9c8c-4492-a31b-271a86f7ac4c.png)
-![image](https://user-images.githubusercontent.com/116766305/210107407-c7bdff90-09bc-47f7-8c9a-21b29e4d4cdf.png)
+<img src="https://user-images.githubusercontent.com/116766305/210107337-3ab597eb-f358-4341-897a-22adaf4b5eee.png">
+<img src="https://user-images.githubusercontent.com/116766305/210107368-278f12f0-9c8c-4492-a31b-271a86f7ac4c.png">
+<img src="https://user-images.githubusercontent.com/116766305/210107407-c7bdff90-09bc-47f7-8c9a-21b29e4d4cdf.png">
+
 
 
 
