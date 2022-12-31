@@ -7,26 +7,27 @@
 
 @font-face {
   font-family: bellefair;
-  src: url("src/assets/fonts/bellefier-regular.ttf");
+  src: url('src/assets/fonts/bellefier-regular.ttf');
 }
 
 @font-face {
   font-family: barlow-condensed;
-  src: url("src/assets/fonts/barlow-condensed-regular.ttf");
+  src: url('src/assets/fonts/barlow-condensed-regular.ttf');
 }
 
 @font-face {
   font-family: barlow;
-  src: url("src/assets/fonts/barlow-regular.ttf");
+  src: url('src/assets/fonts/barlow-regular.ttf');
 }
 
 :root {
-  --black: #0b0d17;
-  --violet-light: #d0d6f9;
-  --white: #ffffff;
-  --gray-light: #383b4b;
+  --black: #0B0D17;
+  --violet-light: #D0D6F9;
+  --white: #FFFFFF;
+  --gray-light: #383B4B;
   --gray-strong: #808082;
 }
+
 body {
   color: var(--violet-light);
   font-family: barlow;
@@ -43,10 +44,12 @@ a {
   body {
     font-size: 16px;
   }
+
 }
 
 @media (min-width: 1440px) {
   body {
     font-size: 18px;
   }
+
 }
