@@ -3,13 +3,9 @@ import { CommonModule } from '@angular/common';
 import { InicioComponent } from './inicio/inicio.component';
 import { NavModule } from '../nav/nav.module';
 
-
-
 @NgModule({
   declarations: [InicioComponent],
   imports: [CommonModule, NavModule],
-  exports: [InicioComponent]
+  exports: [InicioComponent],
 })
-export class HomeModule { }
-
-
+export class HomeModule {}

@@ -8,8 +8,4 @@ import { NavModule } from '../nav/nav.module';
   imports: [CommonModule, NavModule],
   exports: [CrewEngineerComponent],
 })
-
 export class CrewModule {}
-
-export class CrewModule {}
-

@@ -1,11 +1,10 @@
 .cuerpo {
-
   background-image: url("../../../assets/img/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
   width: 100%;
-  height: 100vh;
-  margin: 0;
+  min-height: 100vh;
 }
 
 .contenedor {
@@ -14,12 +13,10 @@
   width: 70%;
   margin: auto;
   height: 70vh;
-  /* border: 2px solid blue; */
 }
 
 .section1 {
   width: 50%;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,7 +41,7 @@
 
 .contenido > h3,
 p {
-  color: #ccc6;
+  color: #ccc;
 }
 
 h2 {
@@ -60,8 +57,8 @@ h3 {
 }
 
 .contenido p {
-  font-size: 0.9em;
-  width: 65%;
+  font-size: 1.1em;
+  width: 70%;
 }
 
 .puntos {
@@ -85,110 +82,51 @@ h3 {
 
 .section2 {
   width: 50%;
-  /* border: 4px solid green; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
 
 .section2 img {
-  width: 80%;
   height: 80%;
 }
 
-    background-image: url("../../../assets/img/crew/background-crew-desktop.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .contenedor {
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    margin: auto;
-    height: 70vh;
-    /* border: 2px solid blue; */
-  }
-  
-  .section1 {
-    width: 50%;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .intro {
-    font-size: 1.5em;
-    color: #ddd;
-    letter-spacing: 0.1em;
-    padding-top: 20px;
-  }
-  
-  .intro span {
-    color: #ccc5;
-    font-weight: 600;
-    margin-right: 20px;
-  }
-  
-  .contenido {
-    padding-top: 80px;
-  }
-  
-  .contenido > h3,
-  p {
-    color: #ccc6;
-  }
-  
-  h2 {
-    color: #ddd;
-    font-size: 3rem;
-    font-weight: 100;
-    letter-spacing: 0.1em;
-    padding: 10px 0;
-  }
-  h3 {
-    font-weight: 100;
-    font-size: 1.4em;
-  }
-  
-  .contenido p {
-    font-size: 0.9em;
-    width: 65%;
-  }
-  
-  .puntos {
-    margin-bottom: 40px;
-  }
-  
-  .puntos span {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background-color: #ccc5;
-    margin-right: 20px;
-    border-radius: 50%;
-  }
-  
-  .puntos span:last-child {
-    background-color: #ddd;
-  }
-  
-  /* section2 */
-  
-  .section2 {
-    width: 50%;
-    /* border: 4px solid green; */
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-  }
-  
-  .section2 img {
-    width: 80%;
-    height: 80%;
+@media (max-width: 1023px) {
+  .cuerpo {
+    background-image: url("../../../assets/img/crew/background-crew-tablet.jpg");
   }
 
+  .contenedor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .section1 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contenido > h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .contenido p {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .section2 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .section2 img {
+    display: block;
+    width: 100%;
+  }
+}
